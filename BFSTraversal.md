@@ -2,9 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Push Starting Node to queue and mark it as visited , create ans . 
-// While queue is not empty , pop the front element and push it to ans.
-// Traverse the adjacent nodes of the popped element and if they are not visited , push them to queue and mark them as visited .then return ans.
 
 vector<int> BFSTraversal (vector<int> adj[], int v) {
     queue<int> q;
